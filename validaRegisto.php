@@ -15,7 +15,7 @@ mysql_select_db("feed", $con);
 mysql_query("INSERT INTO utilizadores (email, password, nome)
 VALUES ('".$username."', '".$password."','".$nome."')");
 
-header("location: valida.php?email=".$password."&password=");
+//header("location: valida.php?email=".$password."&password=");
 mysql_close($con);
 
 ?>

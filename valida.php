@@ -3,8 +3,6 @@ include 'init.php';
 //CONSULTA DO UTILIZADOR
 
 
-
-
 $consulta="Select * from utilizadores where email='" . $_POST['email'] . "' and password='" . md5(trim($_POST['password'])) . "'";
 $resultado=mysql_query($consulta);
 if (mysql_num_rows($resultado)>0) //SE O EMAIL E A PASSWORD COINCIDIREM
