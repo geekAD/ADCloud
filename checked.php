@@ -3,20 +3,20 @@
 include 'init.php';
 
 $dados = $_POST['op'];
-
-
-if(isset($_POST['delete'])){
 $id = preg_replace("/[^0-9]/", "", $dados);
+
+if(($_POST['delete'])){
+
 mysql_query("DELETE FROM artigos WHERE artigos.id=$id");
 var_dump($id);
 echo "delete";
-//header("location: gerirArtigos.php?numPag=".$_SESSION['numPag']);
-}else if(isset($_POST['edit'])){
-    $id = preg_replace("/[^0-9]/", "", $dados);
+header("location: gerirArtigos.php?numPag=".$_SESSION['numPag']);
+}else if(($_POST['edit'])){
+    
     var_dump($id);
     echo "edit";
     
-//header("location: editarArtigo.php?numPag=".$_SESSION['numPag']."&idArtigo=".$id); 
+header("location: editarArtigo.php?numPag=".$_SESSION['numPag']."&idArtigo=".$id); 
 }
 
 
