@@ -2,7 +2,7 @@
 <?php
 include 'init.php';
 
-$dados = $_POST['op'];
+$dados = $_GET['op'];
 
 
 $id = preg_replace("/[^0-9]/", "", $dados);
