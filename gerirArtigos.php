@@ -193,7 +193,7 @@
                                             for ($i = 0; $i <= count($conteudo_Artigos['id']) / 5; $i++) {
                                                 ?> 
                                                 <!-- mandar variavel, fazer get para a mesma pagina, começar i = valor do get -->
-                                                <a href="/back/gerirArtigos.php?numPag=<?php echo $i; ?>" <?php if ($_GET["numPag"] == $i) echo "class=" . 'number current'; ?> title="<?php echo $i; ?>"><?php echo $i; ?></a>
+                                                <a href="/gerirArtigos.php?numPag=<?php echo $i; ?>" <?php if ($_GET["numPag"] == $i) echo "class=" . 'number current'; ?> title="<?php echo $i; ?>"><?php echo $i; ?></a>
                                             <?php } ?>
                                             <a href="#" title="Next Page">Next &raquo;</a><a href="#" title="Last Page">Last &raquo;</a>
                                         </div> <!-- End .pagination -->
