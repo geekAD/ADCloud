@@ -219,7 +219,7 @@
                                             <td><?php echo $conteudo_Artigos['autor'][$k]; ?></td>
                                             <td><?php echo $conteudo_Artigos['id'][$k]; ?></td>
                                             <td>
-                                                <input type="image" name="edit" value="editar" src="resources/images/icons/pencil.png" alt="Edit" />
+                                                <input type="image" name="editar" value="editar" src="resources/images/icons/pencil.png" alt="Edit" />
                                                 <input type="image" name="delete" value="delete" src="resources/images/icons/cross.png" alt="Delete" /> 
                                             </td>
 
