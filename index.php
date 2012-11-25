@@ -64,14 +64,13 @@
     
     <?php $read = new readFeedJn(); $dados = $read->getRSSJN("http://feeds.jn.pt/JN-ULTIMAS"); 
     
-    $save = new insertBD("feed", "IYOvfj432", "localhost", $dados); 
+    $save = new insertBD("db_b0b749ab", "(@H@zi0vv4&ewj", "a.db.shared.orchestra.io", $dados); 
 //    $save->insertNew($dados, "localhost", "feed", "ricardo", "IYOvfj432"); 
 //    $selectBD = $save->selectDados("localhost", "feed", "ricardo", "IYOvfj432");
     ?>
     
     <div id="main_content">
 		<div id="main_content_header">
-                    
                 
 		</div>
                 <?php for($k=1; $k<count($dados['title']); $k++){ ?>
