@@ -16,6 +16,7 @@ echo "delete";
 }else if(isset($_GET['edit'])){
     var_dump($id);
     echo "edit";
+    
 //header("location: editarArtigo.php?numPag=".$_SESSION['numPag']."&idArtigo=".$id); 
 }
 
