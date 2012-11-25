@@ -13,6 +13,7 @@
 
         <title>Simpla Admin</title>
 
+        
         <!--                       CSS                       -->
 
         <!-- Reset Stylesheet -->
