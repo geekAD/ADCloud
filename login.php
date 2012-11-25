@@ -102,7 +102,7 @@
                     <table>
                    <tr>     
                    <td> <input class="button" style="width:70px; "type="submit" value="Sign In" /> </td>
-                   <td><a href="/back/register.php"> <input  style="margin-left:20px;" class="button" style="width:70px;" value="Register" /> </a> </td>
+                   <td><a href="/register.php"> <input  style="margin-left:20px;" class="button" style="width:70px;" value="Register" /> </a> </td>
                    </tr>
                     </table>    
                 </form>
