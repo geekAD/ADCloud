@@ -12,13 +12,13 @@ $date = new DateTime(null, new DateTimeZone('Europe/Lisbon'));
 $dataTempo = $date->format('Y-m-d H:i:s') . "\n";
 
 
-$con = mysql_connect("localhost","ricardo","IYOvfj432");
+//$con = mysql_connect("localhost","ricardo","IYOvfj432");
 if (!$con)
   {
   die('Could not connect: ' . mysql_error());
   }
 
-mysql_select_db("feed", $con);
+mysql_select_db("db_b0b749ab", $con);
 
 
 $sql = "INSERT INTO artigos (autor, data, titulo, texto) VALUES ('".$_SESSION['email']."','$dataTempo', '$titulo ', '$texto')";
