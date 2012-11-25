@@ -11,7 +11,7 @@ $texto = $_POST["textoArtigo"];
 $date = new DateTime(null, new DateTimeZone('Europe/Lisbon'));
 $dataTempo = $date->format('Y-m-d H:i:s') . "\n";
 
-$con = mysql_connect("localhost","ricardo","IYOvfj432");
+$con = mysql_connect("a.db.shared.orchestra.io","user_b0b749ab","(@H@zi0vv4&ewj");
 mysql_select_db("feed", $con);
 
 $sql = "UPDATE artigos SET titulo="."'$titulo'".",texto="."'$texto'"." WHERE id="."'".$_GET['idArtigo']."'";
