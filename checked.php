@@ -5,13 +5,13 @@ include 'init.php';
 $dados = $_POST['op'];
 
 
-if(isset($_GET['delete'])){
+if(isset($_POST['delete'])){
 $id = preg_replace("/[^0-9]/", "", $dados);
 mysql_query("DELETE FROM artigos WHERE artigos.id=$id");
 var_dump($id);
 echo "delete";
 //header("location: gerirArtigos.php?numPag=".$_SESSION['numPag']);
-}else if(isset($_GET['edit'])){
+}else if(isset($_POST['edit'])){
     $id = preg_replace("/[^0-9]/", "", $dados);
     var_dump($id);
     echo "edit";
