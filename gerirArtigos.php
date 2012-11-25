@@ -210,7 +210,7 @@
                                 $numeroPagina *=5;
                             ?>
                             <tbody>
-                                <form action="checked.php" method="GET" >
+                                <form action="checked.php" method="POST" >
                                     <?php for ($k = $numeroPagina; $k < $numeroPagina + 5; $k++) { ?>    
                                         <tr>
                                             <td><input  name="op" type="checkbox" <?php echo "value=" . $conteudo_Artigos['id'][$k]; ?>/></td>
