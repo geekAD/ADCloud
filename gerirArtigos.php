@@ -89,8 +89,8 @@
                                 Artigos
                             </a>
                             <ul>
-                                <li><a href="/back/novoArtigo.php">Escrever Artigo</a></li>
-                                <li><a class="current" href="/backoffice/gerirArtigos.php">Gerir Artigos</a></li> <!-- Add class "current" to sub menu items also -->
+                                <li><a href="/novoArtigo.php">Escrever Artigo</a></li>
+                                <li><a class="current" href="/gerirArtigos.php">Gerir Artigos</a></li> <!-- Add class "current" to sub menu items also -->
                                 <li><a href="#">Gerir Comentarios</a></li>
                                 <li><a href="#">Gerir categorias</a></li>
                             </ul>
