@@ -10,7 +10,7 @@ if (!$con)
   die('Could not connect: ' . mysql_error());
   }
 
-mysql_select_db("feed", $con);
+mysql_select_db("a.db.shared.orchestra.io", $con);
 
 mysql_query("INSERT INTO utilizadores (email, password, nome)
 VALUES ('".$username."', '".$password."','".$nome."')");
