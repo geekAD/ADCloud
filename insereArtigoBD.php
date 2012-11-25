@@ -30,7 +30,7 @@ if (!mysql_query($sql,$con))
   }
 
 mysql_close($con);
-header( 'Location: http://127.0.0.1/back/novoArtigo.php?sucess=1' ) ;
+header( 'Location: /novoArtigo.php?sucess=1' ) ;
 
 
 
