@@ -107,6 +107,7 @@
                             <a href="#" class="nav-top-item current"> <!-- Add the class "current" to current menu item -->
                                 Artigos
                             </a>
+                            
                             <ul>
                                 <li><a href="/novoArtigo.php">Escrever Artigo</a></li>
                                 <li><a class="current" href="/gerirArtigos.php?numPag=0">Gerir Artigos</a></li> <!-- Add class "current" to sub menu items also -->
