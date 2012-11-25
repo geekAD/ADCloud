@@ -4,7 +4,7 @@ $username = $_POST['username'];
 $password = md5($_POST['password']);
 $nome = $_POST['nome'];
 
-$con = mysql_connect("localhost","ricardo","IYOvfj432");
+$con = mysql_connect("a.db.shared.orchestra.io","user_b0b749ab","(@H@zi0vv4&ewj");
 if (!$con)
   {
   die('Could not connect: ' . mysql_error());
