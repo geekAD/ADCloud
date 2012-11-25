@@ -11,7 +11,7 @@ mysql_query("DELETE FROM artigos WHERE artigos.id=$id");
 var_dump($id);
 echo "delete";
 header("location: /gerirArtigos.php?numPag=".$_SESSION['numPag']);
-}else if(($_POST['editar'])){
+}else {
     
     var_dump($id);
     echo "edit";
