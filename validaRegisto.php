@@ -14,8 +14,7 @@ mysql_select_db("a.db.shared.orchestra.io", $con);
 
 mysql_query("INSERT INTO utilizadores (email, password, nome)
 VALUES ('".$username."', '".$password."','".$nome."')");
-var_dump($nome);
-//header("location: valida.php?email=".$password."&password=");
+header("location: valida.php?email=".$password."&password=");
 mysql_close($con);
 
 ?>
